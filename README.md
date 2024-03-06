@@ -1,1 +1,1 @@
-[BLOG](/blog)
+[BLOG](blog.md)
