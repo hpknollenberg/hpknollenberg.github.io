@@ -8,4 +8,4 @@ I'm not sure exactly what I was expecting. However, I wasn't expecting, or didn'
 I'm excited to learn more coding where logic is involved. My favorite parts of the PreWork were the games in which if-then/else statements and loops were involved. Figuring out the right combination of code to achieve a goal was/is incredibly pleasing to my brain.
 
 ## What is something about you that can only be learned by reading this blog?
-I took a programming class in highschool; however, being that that was over a decade ago, I almost remember nothing from it. I remember we primarily used Visual Basic and that loops blew my mind, but that's about it. `i=i+1`
+I took a programming class in highschool; however, being that that was over a decade ago, I almost remember nothing from it. I remember we primarily used Visual Basic and that loops blew my mind, but that's about it. `i = i + 1`
