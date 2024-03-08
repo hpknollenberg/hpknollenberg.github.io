@@ -1,5 +1,5 @@
 # Henry Knollenberg's Blog
-<img src="img/Screenshot 2023-08-12 003748.png" alt="Henry and their dog Lucky"/>
+![Henry and their dog Lucky](img/Screenshot_2023-08-12_003748.png)
 
 ## Was your first week what you expected? Why? Why not?
 I'm not sure exactly what I was expecting. However, I wasn't expecting, or didn't realize, how much Markdown is used online. I work for a company where I create prompts for AI and then rate and/or edit their responses. Markdown is the format we use to talk with the AI. The language is so simple, I just assumed it was an in-house thing. 
