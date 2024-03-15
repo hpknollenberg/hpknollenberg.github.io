@@ -1,5 +1,5 @@
 # Henry Knollenberg's Week 2 Blog
-![Henry and their dog Lucky](img/Screenshot_2023-08-12_003748.png)
+![Henry, their partner Allegra, and their dog Lucky](../img/Allegra_Lucky_and_me.png)
 
 ## What is something you wish you could do but currently do not have the coding skills to accomplish?
 
