@@ -1,4 +1,4 @@
-# Henry Knollenberg's Blog
+# Henry Knollenberg's Week 1 Blog
 ![Henry and their dog Lucky](img/Screenshot_2023-08-12_003748.png)
 
 ## Was your first week what you expected? Why? Why not?
