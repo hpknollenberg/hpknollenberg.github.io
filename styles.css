@@ -1,0 +1,46 @@
+/*Page Spacing*/
+main {
+    display: flex;
+}
+
+#lucky {
+    flex: 3;
+    max-width: 50%;
+    margin-right: 1%;
+}
+
+aside {
+    flex: 2;
+    flex-flow: column;
+    border-style: solid;
+    margin-right: 33%;
+    margin-left: 1%;
+    min-width: 100px;
+}
+
+#list_title {
+    flex: 1;
+    padding: 1%;
+}
+
+#blogs {
+    flex: 1;
+}
+
+
+/*Text*/
+header h1 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#list_title {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#blogs {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
