@@ -17,7 +17,6 @@ header {
 
 aside {
     flex: 2;
-    flex-flow: column;
     border-style: solid;
     max-width: 200px;
     min-width: 100px;
@@ -29,9 +28,6 @@ aside {
     padding: 1%;
 }
 
-#blogs {
-    flex: 1;
-}
 
 
 /*Text*/
