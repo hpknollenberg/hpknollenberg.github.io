@@ -20,8 +20,8 @@ aside {
     flex-flow: column;
     border-style: solid;
     max-width: 200px;
-    margin-left: 1%;
     min-width: 100px;
+    margin-left: 1%;
 }
 
 #list_title {
