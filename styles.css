@@ -3,6 +3,12 @@ main {
     display: flex;
 }
 
+header {
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 #lucky {
     flex: 3;
     max-width: 50%;
@@ -13,7 +19,7 @@ aside {
     flex: 2;
     flex-flow: column;
     border-style: solid;
-    margin-right: 33%;
+    max-width: 200px;
     margin-left: 1%;
     min-width: 100px;
 }
@@ -32,6 +38,7 @@ aside {
 header h1 {
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
 }
 
 #list_title {
@@ -43,4 +50,24 @@ header h1 {
 
 #blogs {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Elements Formatting*/
+body {
+    background-color: lavender;
+}
+
+header {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px purple;
+}
+
+aside {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px purple;
+}
+
+#lucky {
+    box-shadow: 5px 5px 10px purple;
 }
