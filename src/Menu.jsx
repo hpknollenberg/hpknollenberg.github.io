@@ -1,7 +1,6 @@
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { NavLink } from 'react-router-dom'
 
 const styles = {
   header: {
@@ -15,9 +14,12 @@ function Menu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="./" style={{...styles.header}}>Home</Nav.Link>
-            <Nav.Link href="./About" style={{...styles.header}}>About</Nav.Link>
-            <Nav.Link href="./Contact" style={{...styles.header}}>Contact</Nav.Link>
+            <NavLink className={`${({ isActive }) => isActive ? "text-light" : ""} pe-2`} 
+              to="/" style={{...styles.header}}>Home</NavLink>
+            <NavLink className={`${({ isActive }) => isActive ? "text-light" : ""} pe-2`}
+              to="/about" style={{...styles.header}}>About</NavLink>
+            <NavLink className={`${({ isActive }) => isActive ? "text-light" : ""}`}
+              to="/contact" style={{...styles.header}}>Contact</NavLink>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
