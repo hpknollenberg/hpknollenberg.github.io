@@ -1,8 +1,16 @@
 import Card from 'react-bootstrap/Card';
 
+
+const styles = {
+    card: {
+      margin: '5px',
+      width: '18rem'
+    }
+  }
+
 function TextExample() {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ ...styles.card}}>
       <Card.Body>
         <Card.Title>Pseudo-Code</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">04/19/2023</Card.Subtitle>

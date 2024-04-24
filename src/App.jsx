@@ -14,10 +14,7 @@ import Card from "./Card.jsx"
 
 function LandingPage () {
   return(
-    <div class="d-flex justify-content-center row flex-column h-75" id=""> 
-      <br></br>
-      <br></br>
-      <br></br>
+    <div class="d-flex justify-content-center row flex-column h-75 landing"> 
       <div class="links row justify-content-center justify-content-md-end align-items-center col-9 col-xl-10">
         <a href="mailto:henryknollenberg@outlook.com" class="link-button col-2 col-md-1"><img src={email} alt="envelope icon" class="icons"></img></a>
         <a href="https://github.com/hpknollenberg" class="link-button col-2 col-md-1"><img src={github} alt="github icon" class="icons"></img></a>
@@ -46,10 +43,10 @@ function App() {
   return (
     <div>
       <Menu />
-      <div>
+      <div className="mt-5">
         <LandingPage />
       </div>
-      <div>
+      <div className="d-flex">
         <Card />
       </div>
     </div>

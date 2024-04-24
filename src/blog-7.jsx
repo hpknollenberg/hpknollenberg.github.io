@@ -5,12 +5,16 @@ import Menu from "./Menu"
 const styles = {
   text: {
     fontWeight: 'bold',
+    backgroundColor: 'white',
+    margin: '10px',
+    borderRadius: '5px',
+    padding: '10px',
   }
 }
 
 function Title() {
   return (
-    <div className="ps-5 p-3">
+    <div className="ps-3 p-3">
       <h1 style={{...styles.imageDiv}}>Pseudo-Code</h1>
       
     </div>
@@ -19,7 +23,7 @@ function Title() {
 
 function Section() {
   return (
-    <div className="ps-5" style={{...styles.text}}>
+    <div className="" style={{...styles.text}}>
       <p>Pseudo-coding is the process of writing out the logic of one’s code 
         in plain language. This can look different for different people,
         but the idea is that most anyone could understand it – even if they

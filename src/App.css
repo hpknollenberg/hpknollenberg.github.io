@@ -17,7 +17,6 @@ header  {
     background-color: whitesmoke;
     box-shadow: 5px 5px 10px rgb(72, 15, 72); 
     
-    
 }
 
 #contact {
@@ -115,6 +114,10 @@ aside {
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 5px;
+}
+
+.landing {
+    margin-bottom: 10vh;
 }
 
 
