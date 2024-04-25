@@ -13,7 +13,8 @@ import About from './About'
 import App from './App'
 import Contact from './Contact'
 import ErrorPage from './ErrorPage'
-import Blog from './blog-7'
+import Blog7 from './blog-7'
+import Blog6 from './blog-6'
 
 const site = import.meta.env.BASE_URL
 
@@ -33,7 +34,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/blog-7',
-    element: <Blog />
+    element: <Blog7 />
+  },
+  {
+    path: '/blog-6',
+    element: <Blog6 />
   },
 ], {
   basename: site

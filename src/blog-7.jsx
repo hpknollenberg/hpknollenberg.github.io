@@ -23,7 +23,7 @@ function Title() {
 
 function Section() {
   return (
-    <div className="" style={{...styles.text}}>
+    <div className="blog-entry" style={{...styles.text}}>
       <p>Pseudo-coding is the process of writing out the logic of one’s code 
         in plain language. This can look different for different people,
         but the idea is that most anyone could understand it – even if they
@@ -55,10 +55,14 @@ function Section() {
 
 function About() {
   return (
-    <div className="">
+    <div>
       <Menu />
-      <Title />
-      <Section />
+      <div className="d-flex justify-content-center">
+        <div className="">
+          <Title />
+          <Section />
+        </div>
+      </div>
     </div>
   )
 }

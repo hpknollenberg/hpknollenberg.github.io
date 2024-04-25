@@ -180,3 +180,9 @@ a {
 h1 {
     font-family: oceanTypewriter, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+@media only screen and (min-width: 800px) {
+    .blog-entry {
+        width: 50vw;    
+    }
+}

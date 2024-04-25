@@ -8,18 +8,24 @@ const styles = {
     height: '100%',
     objectFit: 'contain',
     borderRadius: '200px',
-    marginRight: '20px'
+    marginRight: '10px'
     
   },
   imageDiv: {
     height: '200px',
-   
+  },
+  text: {
+    backgroundColor: "white",
+    margin: '10px',
+    borderRadius: '5px',
+    padding: '10px',
+    fontWeight: 'bold'
   }
 }
 
 function Title() {
   return (
-    <div className="ps-5 p-3">
+    <div className="p-2">
       <h1 style={{...styles.imageDiv}}><img src={Allegra_Henry_Lucky} style={{...styles.image}}></img>About Me</h1>
       
     </div>
@@ -28,7 +34,7 @@ function Title() {
 
 function Section() {
   return (
-    <div className="ps-5">
+    <div className="blog-entry" style={{...styles.text}}>
       <p>My name is Henry Knollenberg. I am a web developer familiar with HTML, CSS, JavaScript, and React. 
         <br></br>I am a student of Awesome Inc.'s Web-Developer Bootcamp.</p>
       <p>Before becoming a web developer, I received an MFA in Creative Writing from the University of Kentucky.</p>
