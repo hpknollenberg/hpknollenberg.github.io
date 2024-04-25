@@ -9,18 +9,19 @@ import allegra_and_henry_2 from "./assets/img/Allegra_and_me.jpg"
 import allegra_and_lucky from "./assets/img/Allegra_Lucky_and_me.png"
 import lucky_and_henry from "./assets/img/Knollenberg_photo.jpg"
 import lucky_and_henry_2 from "./assets/img/Screenshot_2023-08-12_003748.png"
-import Card from "./Card.jsx"
+import Card7 from "./Card-7.jsx"
+import Card6 from "./Card-6.jsx"
 
 
 function LandingPage () {
   return(
     <div class="d-flex justify-content-center row flex-column h-75 landing"> 
       <div class="links row justify-content-center justify-content-md-end align-items-center col-9 col-xl-10">
-        <a href="mailto:henryknollenberg@outlook.com" class="link-button col-2 col-md-1"><img src={email} alt="envelope icon" class="icons"></img></a>
-        <a href="https://github.com/hpknollenberg" class="link-button col-2 col-md-1"><img src={github} alt="github icon" class="icons"></img></a>
-        <a href="https://www.instagram.com/greatsetman/" class="link-button col-2 col-md-1"><img src={instagram} alt="instagram icon" class="icons"></img></a>
-        <a href="https://www.linkedin.com/in/henry-knollenberg-44a62829a/" class="link-button col-2 col-md-1"><img src={linkedin} alt="linked-in icon" class="icons"></img></a>
-        <a href="https://henryknollenberg.wordpress.com/" class="link-button col-2 col-md-1"><img src={website} alt="website icon" class="icons"></img></a>
+        <a href="mailto:henryknollenberg@outlook.com" class="link-button col-2 col-md-1 p-0"><img src={email} alt="envelope icon" class="icons"></img></a>
+        <a href="https://github.com/hpknollenberg" class="link-button col-2 col-md-1 p-0"><img src={github} alt="github icon" class="icons"></img></a>
+        <a href="https://www.instagram.com/greatsetman/" class="link-button col-2 col-md-1 p-0"><img src={instagram} alt="instagram icon" class="icons"></img></a>
+        <a href="https://www.linkedin.com/in/henry-knollenberg-44a62829a/" class="link-button col-2 col-md-1 p-0"><img src={linkedin} alt="linked-in icon" class="icons"></img></a>
+        <a href="https://henryknollenberg.wordpress.com/" class="link-button col-2 col-md-1 p-0"><img src={website} alt="website icon" class="icons"></img></a>
       </div>
             
       <header class="d-flex justify-content-end col-md-9 col-xl-10 col-12 p-0">
@@ -46,9 +47,11 @@ function App() {
       <div className="mt-5">
         <LandingPage />
       </div>
-      <div className="d-flex">
-        <Card />
+      <div className="d-flex row">
+        <Card7 />
+        <Card6 />
       </div>
+      
     </div>
   )
 }
