@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import { NavLink } from 'react-router-dom'
 
 const styles = {
     card: {
@@ -16,7 +17,7 @@ function TextExample() {
         <Card.Text>
         This week we developed our skills further concerning Javascript, Bootstrap...
         </Card.Text>
-        <Card.Link href="./blog-6">Read More</Card.Link>
+        <NavLink to="/blog-6">Read More</NavLink>
       </Card.Body>
     </Card>
   );

@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import { NavLink } from 'react-router-dom'
 
 const styles = {
     card: {
@@ -16,7 +17,7 @@ function TextExample() {
         <Card.Text>
         Pseudo-coding is the process of writing out the logic of one’s code in plain language...
         </Card.Text>
-        <Card.Link href="./blog-7">Read More</Card.Link>
+        <NavLink to="./blog-7">Read More</NavLink>
       </Card.Body>
     </Card>
   );
