@@ -15,7 +15,7 @@ const styles = {
 function Title() {
   return (
     <div className="ps-3 p-3">
-      <h1 style={{...styles.imageDiv}}>Henry's Week 6 Blog</h1>
+      <h1 style={{...styles.imageDiv}}>Henry's Week 8 Blog</h1>
       
     </div>
   )
