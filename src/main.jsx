@@ -15,6 +15,7 @@ import Contact from './Contact'
 import ErrorPage from './ErrorPage'
 import Blog7 from './blog-7'
 import Blog6 from './blog-6'
+import Blog8 from './blog-8'
 
 const site = import.meta.env.BASE_URL
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
     path: '/blog-6',
     element: <Blog6 />
   },
+  {
+    path: '/blog-8',
+    element: <Blog8 />
+  }
 ], {
   basename: site
 })

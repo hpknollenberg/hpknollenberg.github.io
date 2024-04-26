@@ -11,6 +11,7 @@ import lucky_and_henry from "./assets/img/Knollenberg_photo.jpg"
 import lucky_and_henry_2 from "./assets/img/Screenshot_2023-08-12_003748.png"
 import Card7 from "./Card-7.jsx"
 import Card6 from "./Card-6.jsx"
+import Card8 from "./Card-8.jsx"
 
 
 function LandingPage () {
@@ -48,6 +49,7 @@ function App() {
         <LandingPage />
       </div>
       <div className="d-flex row">
+        <Card8 />
         <Card7 />
         <Card6 />
       </div>
