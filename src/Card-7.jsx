@@ -17,7 +17,7 @@ function TextExample() {
         <Card.Text>
         Pseudo-coding is the process of writing out the logic of one’s code in plain language...
         </Card.Text>
-        <NavLink to="./blog-7">Read More</NavLink>
+        <NavLink to="/blog-7">Read More</NavLink>
       </Card.Body>
     </Card>
   );
