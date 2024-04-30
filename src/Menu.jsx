@@ -18,8 +18,10 @@ function Menu() {
               to="/" style={{...styles.header}}>Home</NavLink>
             <NavLink className={`${({ isActive }) => isActive ? "text-light" : ""} pe-2`}
               to="/about" style={{...styles.header}}>About</NavLink>
-            <NavLink className={`${({ isActive }) => isActive ? "text-light" : ""}`}
+            <NavLink className={`${({ isActive }) => isActive ? "text-light" : ""} pe-2`}
               to="/contact" style={{...styles.header}}>Contact</NavLink>
+            <NavLink className={`${({ isActive }) => isActive ? "text-light" : ""}`}
+              to="/projects" style={{...styles.header}}>Projects</NavLink>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

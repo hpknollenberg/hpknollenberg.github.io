@@ -12,6 +12,7 @@ import './App.css'
 import About from './About'
 import App from './App'
 import Contact from './Contact'
+import Projects from './Projects'
 import ErrorPage from './ErrorPage'
 import Blog7 from './blog-7'
 import Blog6 from './blog-6'
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact />
+  },
+  {
+    path: '/projects',
+    element: <Projects />
   },
   {
     path: '/blog-7',
