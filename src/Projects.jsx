@@ -1,5 +1,7 @@
 import Menu from './Menu'
 import Restaurant from "./Project-Restaurant.jsx"
+import Weather from "./Project-WeatherApp.jsx"
+import TicTacToe from "./Project-Tic-Tac-Toe.jsx"
 
 const styles = {
     card: {
@@ -13,7 +15,11 @@ function Projects() {
     <div>
         <Menu />
         <h1 className="p-4">Projects</h1>
-        <Restaurant />
+        <div className="row">
+          <Restaurant />
+          <TicTacToe />
+          <Weather />
+        </div>
     </div>
   );
 }
