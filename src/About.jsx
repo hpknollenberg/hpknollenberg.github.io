@@ -8,18 +8,20 @@ const styles = {
     height: '100%',
     objectFit: 'contain',
     borderRadius: '200px',
-    marginRight: '10px'
-    
+    marginRight: '15px',
+    boxShadow: '5px 5px 10px rgb(72, 15, 72)'
   },
   imageDiv: {
     height: '200px',
+    
   },
   text: {
     backgroundColor: "white",
     margin: '10px',
     borderRadius: '5px',
     padding: '10px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    boxShadow: '5px 5px 10px rgb(72, 15, 72)'
   }
 }
 
