@@ -13,6 +13,7 @@ import About from './About'
 import App from './App'
 import Contact from './Contact'
 import Projects from './Projects'
+import Blogs from './Blogs'
 import ErrorPage from './ErrorPage'
 import Blog7 from './blog-7'
 import Blog6 from './blog-6'
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: '/projects',
     element: <Projects />
+  },
+  {
+    path: '/blogs',
+    element: <Blogs />
   },
   {
     path: '/blog-7',
