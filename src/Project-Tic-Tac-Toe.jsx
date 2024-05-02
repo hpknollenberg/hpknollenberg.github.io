@@ -8,7 +8,7 @@ const styles = {
     }
   }
 
-function Restaurant() {
+function TicTacToe() {
   return (
     <Card style={{...styles.card}}>
             <Card.Body>
@@ -23,4 +23,4 @@ function Restaurant() {
   );
 }
 
-export default Restaurant;
+export default TicTacToe;

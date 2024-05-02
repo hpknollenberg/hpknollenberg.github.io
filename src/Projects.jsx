@@ -2,6 +2,7 @@ import Menu from './Menu'
 import Restaurant from "./Project-Restaurant.jsx"
 import Weather from "./Project-WeatherApp.jsx"
 import TicTacToe from "./Project-Tic-Tac-Toe.jsx"
+import ToDoList from "./Project-To-Do-List.jsx"
 
 const styles = {
     card: {
@@ -16,6 +17,7 @@ function Projects() {
         <Menu />
         <h1 className="p-4">Projects</h1>
         <div className="row">
+          <ToDoList />
           <Restaurant />
           <TicTacToe />
           <Weather />
