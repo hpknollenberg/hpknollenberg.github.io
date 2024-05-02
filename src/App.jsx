@@ -10,7 +10,7 @@ import allegra_and_lucky from "./assets/img/Allegra_Lucky_and_me.png"
 import lucky_and_henry from "./assets/img/Knollenberg_photo.jpg"
 import lucky_and_henry_2 from "./assets/img/Screenshot_2023-08-12_003748.png"
 import Card8 from "./Card-8.jsx"
-import Restaurant from "./Project-Restaurant.jsx"
+import ToDoList from "./Project-To-Do-List.jsx"
 
 
 function LandingPage () {
@@ -49,7 +49,7 @@ function App() {
       </div>
       <div className="d-flex row">
         <Card8 />
-        <Restaurant />
+        <ToDoList />
       </div>
       
     </div>
