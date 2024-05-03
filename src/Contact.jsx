@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div className="">
       <Menu />
-      <div id="image">
+      <div className="mt-0" id="image">
             <img src={screenshot} alt="Henry and their dog Lucky"></img>
         </div>
 
@@ -18,7 +18,7 @@ function Contact() {
             <a href="https://hpknollenberg.github.io/"><h1>Henry Knollenberg</h1></a>
         </div>
 
-        <div class="container contact-card-wrapper">
+        <div class="container contact-card-wrapper mb-3">
             <div class="row justify-content-center justify-content-md-around align-items-center">
                     <a href="mailto:henryknollenberg@outlook.com" class="email-button col-4 col-md-2"><img src={email} alt="envelope icon" class="icons"></img></a>
                     <a href="https://github.com/hpknollenberg" class="col-4 col-md-2"><img src={github} alt="github icon" class="icons"></img></a>

@@ -4,7 +4,6 @@ import Menu from "../Menu"
 
 const styles = {
   text: {
-    fontWeight: 'bold',
     backgroundColor: 'white',
     margin: '10px',
     borderRadius: '5px',
