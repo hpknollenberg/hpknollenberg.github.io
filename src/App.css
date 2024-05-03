@@ -5,6 +5,10 @@
     src: url(./assets/fonts/oceanside_typewriter.ttf);
 }
 
+p {
+    font-family: Arial;
+}
+
 
 body {
     background-image: linear-gradient(to right, rgb(249, 184, 249), rgb(72, 15, 72));
