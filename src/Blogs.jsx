@@ -1,9 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom'
 import Menu from './Menu'
-import Card7 from "./Card-7.jsx"
-import Card6 from "./Card-6.jsx"
-import Card8 from "./Card-8.jsx"
+import Card7 from "./Blog Cards/Card-7.jsx"
+import Card6 from "./Blog Cards/Card-6.jsx"
+import Card8 from "./Blog Cards/Card-8.jsx"
 
 const styles = {
     card: {

@@ -15,9 +15,9 @@ import Contact from './Contact'
 import Projects from './Projects'
 import Blogs from './Blogs'
 import ErrorPage from './ErrorPage'
-import Blog7 from './blog-7'
-import Blog6 from './blog-6'
-import Blog8 from './blog-8'
+import Blog7 from './Blogs/blog-7'
+import Blog6 from './Blogs/blog-6'
+import Blog8 from './Blogs/blog-8'
 
 
 const router = createBrowserRouter([
