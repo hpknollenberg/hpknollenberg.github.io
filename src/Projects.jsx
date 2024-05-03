@@ -1,8 +1,8 @@
 import Menu from './Menu'
-import Restaurant from "./Project-Restaurant.jsx"
-import Weather from "./Project-WeatherApp.jsx"
-import TicTacToe from "./Project-Tic-Tac-Toe.jsx"
-import ToDoList from "./Project-To-Do-List.jsx"
+import Restaurant from "./Project Cards/Project-Restaurant.jsx"
+import Weather from "./Project Cards/Project-WeatherApp.jsx"
+import TicTacToe from "./Project Cards/Project-Tic-Tac-Toe.jsx"
+import ToDoList from "./Project Cards/Project-To-Do-List.jsx"
 
 const styles = {
     card: {
