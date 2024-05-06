@@ -4,6 +4,7 @@ import Menu from './Menu'
 import Card7 from "./Blog Cards/Card-7.jsx"
 import Card6 from "./Blog Cards/Card-6.jsx"
 import Card8 from "./Blog Cards/Card-8.jsx"
+import Card9 from "./Blog Cards/Card-9.jsx"
 
 const styles = {
     card: {
@@ -18,6 +19,7 @@ function RestaurantProject() {
         <Menu />
         <h1 className="p-4">Blogs</h1>
         <div className="row">
+            <Card9 />
             <Card8 />
             <Card7 />
             <Card6 />

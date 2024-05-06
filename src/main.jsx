@@ -18,6 +18,7 @@ import ErrorPage from './ErrorPage'
 import Blog7 from './Blogs/blog-7'
 import Blog6 from './Blogs/blog-6'
 import Blog8 from './Blogs/blog-8'
+import Blog9 from './Blogs/blog-9'
 
 
 const router = createBrowserRouter([
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
   {
     path: '/blog-8',
     element: <Blog8 />
+  },
+  {
+    path: '/blog-9',
+    element: <Blog9 />
   }
 ])
 
