@@ -9,7 +9,7 @@ import allegra_and_henry_2 from "./assets/img/Allegra_and_me.jpg"
 import allegra_and_lucky from "./assets/img/Allegra_Lucky_and_me.png"
 import lucky_and_henry from "./assets/img/Knollenberg_photo.jpg"
 import lucky_and_henry_2 from "./assets/img/Screenshot_2023-08-12_003748.png"
-import Card8 from "./Blog Cards/Card-8.jsx"
+import Card9 from "./Blog Cards/Card-9.jsx"
 import ToDoList from "./Project Cards/Project-To-Do-List.jsx"
 
 
@@ -48,7 +48,7 @@ function App() {
         <LandingPage />
       </div>
       <div className="d-flex row">
-        <Card8 />
+        <Card9 />
         <ToDoList />
       </div>
       
