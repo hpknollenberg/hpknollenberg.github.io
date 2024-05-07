@@ -9,7 +9,7 @@ const styles = {
     }
   }
 
-function TextExample() {
+function Card8() {
   return (
     <Card style={{...styles.card}}>
       <Card.Body>
@@ -24,4 +24,4 @@ function TextExample() {
   );
 }
 
-export default TextExample;
+export default Card8;
