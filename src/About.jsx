@@ -17,7 +17,7 @@ const styles = {
   },
   text: {
     backgroundColor: "white",
-    margin: '10px',
+    margin: '30px',
     borderRadius: '5px',
     padding: '10px',
     fontWeight: 'bold',
@@ -27,7 +27,7 @@ const styles = {
 
 function Title() {
   return (
-    <div className="p-2">
+    <div className="m-sm-4">
       <h1 style={{...styles.imageDiv}}><img src={Allegra_Henry_Lucky} style={{...styles.image}}></img>About Me</h1>
       
     </div>
