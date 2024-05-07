@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom'
 
 const styles = {
     card: {
-      margin: '15px',
-      width: '18rem'
+      margin: '30px',
+      width: '18rem',
+      boxShadow: '10px 10px 10px rgb(72, 15, 72)'
     }
   }
 
