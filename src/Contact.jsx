@@ -20,11 +20,10 @@ function Contact() {
 
         <div class="container contact-card-wrapper mb-3">
             <div class="row justify-content-center justify-content-md-around align-items-center">
-                    <a href="mailto:henryknollenberg@outlook.com" class="icon email-button col-4 col-md-2"><img src={email} alt="envelope icon" class="icons"></img></a>
-                    <a href="https://github.com/hpknollenberg" class="icon col-4 col-md-2"><img src={github} alt="github icon" class="icons"></img></a>
-                    <a href="https://www.instagram.com/greatsetman/" class="icon col-4 col-md-2"><img src={instagram} alt="instagram icon" class="icons"></img></a>
-                    <a href="https://www.linkedin.com/in/henry-knollenberg-44a62829a/" class="icon col-4 col-md-2"><img src={linkedin} alt="linked-in icon" class="icons"></img></a>
-                    <a href="https://henryknollenberg.wordpress.com/" class="icon col-4 col-md-2"><img src={website} alt="website icon" class="icons"></img></a>
+                    <a href="mailto:henryknollenberg@outlook.com" class="icon email-button col-5 col-md-2"><img src={email} alt="envelope icon" class="icons"></img></a>
+                    <a href="https://github.com/hpknollenberg" class="icon col-5 col-md-2"><img src={github} alt="github icon" class="icons"></img></a>
+                    <a href="https://www.instagram.com/greatsetman/" class="icon col-5 col-md-2"><img src={instagram} alt="instagram icon" class="icons"></img></a>
+                    <a href="https://www.linkedin.com/in/henry-knollenberg-44a62829a/" class="icon col-5 col-md-2"><img src={linkedin} alt="linked-in icon" class="icons"></img></a>
             </div>
         </div>
     </div>
