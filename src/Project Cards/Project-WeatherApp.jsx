@@ -9,7 +9,7 @@ const styles = {
     }
   }
 
-function Restaurant() {
+function WeatherApp() {
   return (
     <Card style={{...styles.card}}>
             <Card.Body>
@@ -24,4 +24,4 @@ function Restaurant() {
   );
 }
 
-export default Restaurant;
+export default WeatherApp;

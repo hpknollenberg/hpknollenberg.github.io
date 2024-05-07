@@ -9,7 +9,7 @@ const styles = {
     }
   }
 
-function BlogCard() {
+function Card9() {
   return (
     <Card style={{...styles.card}}>
       <Card.Body>
@@ -24,4 +24,4 @@ function BlogCard() {
   );
 }
 
-export default BlogCard;
+export default Card9;

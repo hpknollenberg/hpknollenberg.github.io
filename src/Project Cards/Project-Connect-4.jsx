@@ -9,7 +9,7 @@ const styles = {
     }
   }
 
-function Restaurant() {
+function Connect4() {
   return (
     <Card style={{...styles.card}}>
             <Card.Body>
@@ -24,4 +24,4 @@ function Restaurant() {
   );
 }
 
-export default Restaurant;
+export default Connect4;
