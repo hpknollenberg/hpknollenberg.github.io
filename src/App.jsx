@@ -21,14 +21,13 @@ function LandingPage () {
         <a href="https://github.com/hpknollenberg" className="icon link-button col-2 col-md-1 p-0"><img src={github} alt="github icon" class="icons"></img></a>
         <a href="https://www.instagram.com/greatsetman/" className="icon link-button col-2 col-md-1 p-0"><img src={instagram} alt="instagram icon" class="icons"></img></a>
         <a href="https://www.linkedin.com/in/henry-knollenberg-44a62829a/" className="icon link-button col-2 col-md-1 p-0"><img src={linkedin} alt="linked-in icon" class="icons"></img></a>
-        <a href="https://henryknollenberg.wordpress.com/" className="icon link-button col-2 col-md-1 p-0"><img src={website} alt="website icon" class="icons"></img></a>
       </div>
             
       <header class="d-flex justify-content-end col-md-9 col-xl-10 col-12 p-0">
         <h1 id="title" class="">Henry Knollenberg</h1>
         <img src={lucky_and_henry_2} alt="Henry with their dog Lucky" className="pictures d-none d-sm-block"></img>
-        <img src={allegra_and_lucky} alt="Henry with their girlfriend Allegra and their dog Lucky" className="pictures d-none d-lg-block"></img>
-        <img src={allegra_and_henry} alt="Henry and their girlfriend Allegra" className="pictures d-none d-xl-block"></img>
+        <img src={allegra_and_henry} alt="Henry and their girlfriend Allegra" className="pictures d-none d-lg-block"></img>
+        <img src={allegra_and_lucky} alt="Henry with their girlfriend Allegra and their dog Lucky" className="pictures d-none d-xl-block"></img>
         <img src={allegra_and_henry_2} alt="Henry and their girlfriend Allegra" className="pictures d-none d-xl-block"></img>
         <img src={lucky_and_henry} alt="Henry with their dog Lucky" className="pictures d-none d-xxl-block"></img>
       </header>
