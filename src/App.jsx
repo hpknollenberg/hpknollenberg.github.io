@@ -15,23 +15,23 @@ import ToDoList from "./Project Cards/Project-To-Do-List.jsx"
 
 function LandingPage () {
   return(
-    <div class="d-flex justify-content-center row flex-column h-75 landing"> 
-      <div class="links row justify-content-center justify-content-md-end align-items-center col-9 col-xl-10">
-        <a href="mailto:henryknollenberg@outlook.com" className="icon link-button col-2 col-md-1 p-0"><img src={email} alt="envelope icon" class="icons"></img></a>
-        <a href="https://github.com/hpknollenberg" className="icon link-button col-2 col-md-1 p-0"><img src={github} alt="github icon" class="icons"></img></a>
-        <a href="https://www.instagram.com/greatsetman/" className="icon link-button col-2 col-md-1 p-0"><img src={instagram} alt="instagram icon" class="icons"></img></a>
+    <div className="d-flex justify-content-center row flex-column landing p-0"> 
+      <div className="links row justify-content-center justify-content-md-end align-items-center col-9 col-xl-10 ">
+        <a href="mailto:henryknollenberg@outlook.com" className="icon link-button col-1 col-md-1 p-0"><img src={email} alt="envelope icon" class="icons"></img></a>
+        <a href="https://github.com/hpknollenberg" className="icon link-button col-1 col-md-1 p-0"><img src={github} alt="github icon" class="icons"></img></a>
+        <a href="https://www.instagram.com/greatsetman/" className="icon link-button col-1 col-md-1 p-0"><img src={instagram} alt="instagram icon" class="icons"></img></a>
         <a href="https://www.linkedin.com/in/henry-knollenberg-44a62829a/" className="icon link-button col-2 col-md-1 p-0"><img src={linkedin} alt="linked-in icon" class="icons"></img></a>
       </div>
             
-      <header class="d-flex justify-content-end col-md-9 col-xl-10 col-12 p-0">
-        <h1 id="title" class="">Henry Knollenberg</h1>
+      <header className="d-flex justify-content-end col-md-9 col-xl-10 col-12 p-0">
+        <h1 id="title" className="">Henry Knollenberg</h1>
         <img src={lucky_and_henry_2} alt="Henry with their dog Lucky" className="pictures d-none d-sm-block"></img>
         <img src={allegra_and_henry} alt="Henry and their girlfriend Allegra" className="pictures d-none d-lg-block"></img>
         <img src={allegra_and_lucky} alt="Henry with their girlfriend Allegra and their dog Lucky" className="pictures d-none d-xl-block"></img>
         <img src={allegra_and_henry_2} alt="Henry and their girlfriend Allegra" className="pictures d-none d-xl-block"></img>
         <img src={lucky_and_henry} alt="Henry with their dog Lucky" className="pictures d-none d-xxl-block"></img>
       </header>
-      <div class="d-flex col-md-9 col-xl-10 col-12 justify-content-end">
+      <div className="d-flex col-md-9 col-xl-10 col-12 justify-content-end">
         <h2 id="sub-title">Full-Stack Developer</h2>
       </div>
     </div>
@@ -41,9 +41,9 @@ function LandingPage () {
 
 function App() {
   return (
-    <div>
+    <div className="p-0 m-0">
       <Menu />
-      <div className="mt-5">
+      <div className="mt-5 mb-5">
         <LandingPage />
       </div>
       <div className="d-flex row">
