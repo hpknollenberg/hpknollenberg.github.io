@@ -8,6 +8,7 @@ const styles = {
     margin: '10px',
     borderRadius: '5px',
     padding: '10px',
+    boxShadow: '10px 10px 10px rgb(72, 15, 72)'
   }
 }
 
