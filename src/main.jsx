@@ -19,6 +19,7 @@ import Blog7 from './Blogs/blog-7'
 import Blog6 from './Blogs/blog-6'
 import Blog8 from './Blogs/blog-8'
 import Blog9 from './Blogs/blog-9'
+import Blog10 from './Blogs/blog-10'
 
 
 const router = createBrowserRouter([
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
   {
     path: '/blog-9',
     element: <Blog9 />
+  },
+  {
+    path: '/blog-10',
+    element: <Blog10 />
   }
 ])
 
