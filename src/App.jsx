@@ -9,8 +9,8 @@ import allegra_and_henry_2 from "./assets/img/Allegra_and_me.jpg"
 import allegra_and_lucky from "./assets/img/Allegra_Lucky_and_me.png"
 import lucky_and_henry from "./assets/img/Knollenberg_photo.jpg"
 import lucky_and_henry_2 from "./assets/img/Screenshot_2023-08-12_003748.png"
-import Card10 from "./Blog Cards/Card-10.jsx"
-import ToDoList from "./Project Cards/Project-To-Do-List.jsx"
+import Card14 from "./Blog Cards/Card-14.jsx"
+import SocialMedia from "./Project Cards/Project-Social-Media.jsx"
 
 
 function LandingPage () {
@@ -47,8 +47,8 @@ function App() {
         <LandingPage />
       </div>
       <div className="d-flex row">
-        <Card10 />
-        <ToDoList />
+        <Card14 />
+        <SocialMedia />
       </div>
       
     </div>
