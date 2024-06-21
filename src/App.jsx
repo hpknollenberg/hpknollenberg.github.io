@@ -10,7 +10,7 @@ import allegra_and_lucky from "./assets/img/Allegra_Lucky_and_me.png"
 import lucky_and_henry from "./assets/img/Knollenberg_photo.jpg"
 import lucky_and_henry_2 from "./assets/img/Screenshot_2023-08-12_003748.png"
 import Card14 from "./Blog Cards/Card-14.jsx"
-import SocialMedia from "./Project Cards/Project-Social-Media.jsx"
+import CinemaSocial from "./Project Cards/Project-Cinema-Social.jsx"
 
 
 function LandingPage () {
@@ -48,7 +48,7 @@ function App() {
       </div>
       <div className="d-flex row">
         <Card14 />
-        <SocialMedia />
+        <CinemaSocial />
       </div>
       
     </div>
