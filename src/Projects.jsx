@@ -5,6 +5,7 @@ import TicTacToe from "./Project Cards/Project-Tic-Tac-Toe.jsx"
 import ToDoList from "./Project Cards/Project-To-Do-List.jsx"
 import Connect4 from "./Project Cards/Project-Connect-4.jsx"
 import SocialMedia from "./Project Cards/Project-Social-Media.jsx"
+import CinemaSocial from './Project Cards/Project-Cinema-Social.jsx'
 
 const styles = {
     card: {
@@ -19,6 +20,7 @@ function Projects() {
         <Menu />
         <h1 className="p-4">Projects</h1>
         <div className="row">
+          <CinemaSocial />
           <SocialMedia />
           <ToDoList />
           <Restaurant />
