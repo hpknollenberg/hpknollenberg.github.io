@@ -17,9 +17,9 @@ function LandingPage () {
   return(
     <div className="d-flex justify-content-center row flex-column landing p-0"> 
       <div className="links row justify-content-center justify-content-md-end align-items-center col-9 col-xl-10 ">
-        <a href="mailto:henryknollenberg@outlook.com" className="icon link-button col-1 col-md-1 p-0"><img src={email} alt="envelope icon" class="icons"></img></a>
-        <a href="https://github.com/hpknollenberg" className="icon link-button col-1 col-md-1 p-0"><img src={github} alt="github icon" class="icons"></img></a>
-        <a href="https://www.instagram.com/greatsetman/" className="icon link-button col-1 col-md-1 p-0"><img src={instagram} alt="instagram icon" class="icons"></img></a>
+        <a href="mailto:henryknollenberg@outlook.com" className="icon link-button col-2 col-md-1 p-0"><img src={email} alt="envelope icon" class="icons"></img></a>
+        <a href="https://github.com/hpknollenberg" className="icon link-button col-2 col-md-1 p-0"><img src={github} alt="github icon" class="icons"></img></a>
+        <a href="https://www.instagram.com/greatsetman/" className="icon link-button col-2 col-md-1 p-0"><img src={instagram} alt="instagram icon" class="icons"></img></a>
         <a href="https://www.linkedin.com/in/henry-knollenberg-44a62829a/" className="icon link-button col-2 col-md-1 p-0"><img src={linkedin} alt="linked-in icon" class="icons"></img></a>
       </div>
             
